@@ -1,1 +1,270 @@
+body {
+    font-family: 'Poppins', sans-serif;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: normal;
+    color: #FFF;
+}
 
+.container {
+    max-width: 1920px;
+    padding: 0 45px;
+    margin: 0 auto;
+}
+
+.header {
+    background-image: url("../img/images/sofa.png");
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-color: rgba(0, 0, 0, 0.25);
+    padding-bottom: 280px;
+}
+
+.nav-menu {
+    display: flex;
+    justify-content: center;
+}
+
+.nav-text {
+    color: #FFF;
+}
+
+.header-title {
+    font-weight: 600;
+}
+
+.header-sumbtitle {
+    line-height: 200%;
+}
+
+.form {
+    width: 360px;
+    height: 60px;
+    border-radius: 30px;
+    padding: 16px 19px;
+    border: 1px solid #FFF;
+    background: rgba(255, 255, 255, 0.50);
+}
+
+.form-search {
+    border: none;
+    background-color: transparent;
+}
+
+.search-link {
+    width: 38px;
+    height: 38px;
+    padding: 7px 7px;
+    border-radius: 38px;
+    background: #FAF5F2;
+}
+
+.about {
+    background: #FFF;
+}
+
+.about-title {
+    font-weight: 500;
+    line-height: 200%;
+    color: #564E4E;
+}
+
+.card {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 30px;
+    border-radius: 10px;
+    border: 1px solid #FADCD9;
+    background: rgba(255, 255, 255, 0.20);
+    box-shadow: 4px 2px 10px 2px rgba(247, 148, 137, 0.20);
+}
+
+.ikon-img {
+    width: 40px;
+    height: 40px;
+    margin: 26px 30px 10px;
+    padding: 10px 10px;
+    border-radius: 60px;
+    background: #FAF5F2;
+}
+
+.card-title-text {
+    padding: 0 20px;
+    font-weight: 500;
+    line-height: 200%;
+    color:#564E4E;
+}
+
+.card-subtitle-text {
+    line-height: 200%;
+    padding: 0 20px;
+    color: #564E4E;
+}
+
+.card-btn {
+    text-decoration: none;
+    padding: 0 20px 20px;
+    color: #F79489;
+}
+
+.ideas-title {
+    font-weight: 500;
+    color: #564E4E;
+}
+
+.ideas-sumbtitle {
+    color: #564E4E;
+}
+
+/* accordion */
+.accordion-button::after {
+    background-image: url("../img/ikon/plus.svg");
+} 
+
+.accordion-button:not(.collapsed)::after {
+    margin-top: -15px;
+    background-image: url("../img/ikon/line.svg");
+}
+
+.ideas-link {
+    font-size: 18px;
+    margin-left: 10px;
+    color: #564E4E;
+}
+
+.ideas-link:hover {
+    color: #F79489;
+}
+
+.ideas-img {
+    width: 100%;
+}
+
+.catalog-title {
+    font-weight: 500;
+    color: #564E4E;
+}
+
+.catalog-price {
+    text-align: center;
+    align-items: center;
+    margin-bottom: 30px;
+}
+
+.armchair {
+    background: #F6F6F6;
+}
+
+.catalog-name {
+    color: #564E4E;
+}
+
+.catalog-category {
+    font-size: 14px;
+    color: #C4C4C4;
+}
+
+.price-list {
+    font-size: 14px;
+    color: #564E4E;
+}
+
+.review {
+    background: linear-gradient(315deg, #FFF 0%, #FAF5F2 100%);
+}
+
+.review-title {
+    font-weight: 500;
+    color: #564E4E;
+}
+
+.review-item {
+    margin-bottom: 30px;
+}
+
+.review-people {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: space-between;
+    color: #564E4E;
+}
+
+.avatar-items {
+    display: flex;
+    align-items: center;
+}
+
+.avatar-items-name {
+    padding-top: 25px;
+}
+
+.avatar-people {
+    width: 60px;
+    border-radius: 60px;
+    background: #C4C4C4;
+}
+
+.avatar {
+    padding: 0 10px;
+    color: #564E4E;
+}
+
+.job-text {
+    font-size: 14px;
+}
+
+.room {
+    padding-bottom: 100px;
+}
+
+.room-img {
+    border-radius: 60px 60px 60px 0px;
+}
+
+.room-title {
+    font-weight: 500;
+    color: #564E4E;
+}
+
+.room-sumbtitle__text,
+.room-contact {
+    color: #564E4E;
+}
+
+.from-content {
+    width: 400px;
+    height: 60px;
+    border-radius: 30px;
+    border: 1px solid #FADCD9;
+    background: #FEFCFB;
+}
+
+.room-from {
+    font-size: 14px;
+    border: none;    
+    color: #F79489;
+}
+
+.room-ikon {
+    width: 44px;
+    height: 44px;
+    padding: 16px 19px;
+    margin-right: 15px;
+    border-radius: 44px;
+    background: #FADCD9;
+}
+
+.room-arrows {
+    transform: translateY(-50%);
+}
+
+.footer {
+    background: linear-gradient(315deg, #000 0%, #4B4B4B 100%);
+}
+
+.footer__title-text {
+    font-weight: 500;
+    color: #FADCD9;
+}
